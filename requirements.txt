@@ -1,0 +1,3 @@
+# aiohttp 由 ComfyUI 自带，无需单独安装
+Pillow>=9.0.0
+PyYAML>=6.0

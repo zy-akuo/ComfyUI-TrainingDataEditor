@@ -1,0 +1,19 @@
+[project]
+name = "comfyui-training-data-editor"
+version = "1.0.0"
+description = "ComfyUI 训练素材编辑器：浏览、编辑图像-文本配对训练数据，支持批量翻译与批量文本操作。"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "Pillow>=9.0.0",
+    "PyYAML>=6.0",
+]
+
+[project.urls]
+Repository = "https://github.com/zy-akuo/ComfyUI-TrainingDataEditor"
+
+[tool.comfy]
+PublisherId = "training-data-editor"
+DisplayName = "Training Data Editor"
+Icon = ""
